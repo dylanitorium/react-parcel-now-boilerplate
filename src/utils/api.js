@@ -19,7 +19,6 @@ export const catchHTTPError = async res => {
 };
 
 const request = (resource, options) => {
-  console.log(process.env);
   fetch(
     `${process.env.REACT_APP_API_HOST}/api/v1/${resource}`,
     merge({ headers: { "Content-Type": "application/json" } }, options)

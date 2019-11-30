@@ -31,7 +31,7 @@ const Dashboard = () => {
     <div className="w-full h-full flex flex-col">
       <Nav></Nav>
       <div className="flex flex-1 justify-center items-center flex-col">
-        <div className="mb-4">Logged innn as: {user.email}</div>
+        <div className="mb-4">Logged in as: {user.email}</div>
       </div>
     </div>
   );
